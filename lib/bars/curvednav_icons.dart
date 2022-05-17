@@ -4,12 +4,12 @@ import 'package:icofont_flutter/icofont_flutter.dart';
 List<Widget> bottomNavIcons() {
   return <Widget>[
     Icon(
-      Icons.fastfood_rounded,
+      IcoFontIcons.bubbleUp,
       size: 30,
       color: Colors.black,
     ),
     Icon(
-      Icons.local_mall,
+      IcoFontIcons.people,
       size: 30,
       color: Colors.black,
     ),

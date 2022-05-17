@@ -4,6 +4,9 @@ import 'package:quechainlink/bars/appbar.dart';
 import 'package:quechainlink/bars/curvednav_icons.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/global_vars.dart';
+import 'package:quechainlink/pages/accountpage.dart';
+import 'package:quechainlink/pages/cool.dart';
+import 'package:quechainlink/pages/peoplepage.dart';
 
 //this is the default settings of the app. Its basically the frame for the app and how it presents itself.
 
@@ -23,6 +26,9 @@ class _MainSetUpState extends State<MainSetUp> {
 //list of pages that one can navigate to using the navbar
   final _pageOptions = [
     //pages
+    Cool(),
+    PeoplePage(),
+    Acc(),
   ];
   @override
   Widget build(BuildContext context) {

@@ -5,5 +5,5 @@ LinearGradient bluePurpleGrad() {
     Color.fromARGB(255, 65, 29, 255),
     Color.fromARGB(255, 93, 20, 253),
     Color.fromARGB(255, 121, 20, 238),
-  ], begin: Alignment.bottomCenter, end: Alignment.topCenter);
+  ], begin: Alignment.bottomLeft, end: Alignment.topRight);
 }
