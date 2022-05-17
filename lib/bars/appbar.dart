@@ -48,12 +48,11 @@ AppBar topAppBar(BuildContext context) {
         children: [
           Text(
             "Que",
-            style: GoogleFonts.gamjaFlower(
+            style: GoogleFonts.coiny(
               textStyle: TextStyle(
                 color: lightpink,
-                letterSpacing: 1.2,
                 fontWeight: FontWeight.w400,
-                fontSize: 90,
+                fontSize: 60,
                 shadows: [
                   Shadow(
                     offset: Offset(6.0, 8.0),
