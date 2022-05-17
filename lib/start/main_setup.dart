@@ -1,6 +1,7 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:quechainlink/bars/appbar.dart';
+import 'package:quechainlink/bars/curvednav_icons.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/global_vars.dart';
 
@@ -59,7 +60,7 @@ class _MainSetUpState extends State<MainSetUp> {
       color: tabBar,
       backgroundColor: bg.withOpacity(0.7),
       animationCurve: Curves.linearToEaseOut,
-      items: tabs(),
+      items: bottomNavIcons(),
       onTap: (index) {
         setState(() {
           selectedpage =

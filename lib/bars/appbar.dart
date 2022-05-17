@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:quechainlink/colors/bluepurple_gradient.dart';
 
 import '../colors/colours_list.dart';
 
@@ -27,7 +28,7 @@ AppBar topAppBar(BuildContext context) {
       ),
       child: Container(
         decoration: BoxDecoration(
-          gradient: purpleBlue(),
+          gradient: bluePurpleGrad(),
         ),
       ),
     ),
