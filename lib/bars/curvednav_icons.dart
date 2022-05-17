@@ -4,7 +4,7 @@ import 'package:icofont_flutter/icofont_flutter.dart';
 List<Widget> bottomNavIcons() {
   return <Widget>[
     Icon(
-      IcoFontIcons.bubbleUp,
+      IcoFontIcons.line,
       size: 30,
       color: Colors.black,
     ),
