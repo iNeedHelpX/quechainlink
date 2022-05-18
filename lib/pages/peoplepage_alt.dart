@@ -1,4 +1,4 @@
-//the shopping page view
+//the alternative people page view
 
 import 'package:flutter/material.dart';
 import 'package:quechainlink/containers/listingcontainer.dart';
