@@ -23,8 +23,8 @@ class RouteGenerator {
 
         // Validation of correct data type
         if (args is String) {
-          return MaterialPageRoute(
-            builder: (_) => DetailsPage(),
+          return GetPageRoute(
+            page: () => DetailsPage(),
           );
         }
         // If args is not of the correct type, return an error page.
