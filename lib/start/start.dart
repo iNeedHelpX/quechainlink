@@ -71,7 +71,7 @@ class _StartState extends State<Start> {
   CurvedNavigationBar buildCurvedNavigationBar() {
     return CurvedNavigationBar(
       index: selectedpage,
-      buttonBackgroundColor: gold,
+      buttonBackgroundColor: orangetext,
       color: tabBar,
       backgroundColor: bg.withOpacity(0.7),
       animationCurve: Curves.linearToEaseOut,
