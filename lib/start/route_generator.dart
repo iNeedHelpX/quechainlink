@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:quechainlink/pages/accountpage.dart';
 import 'package:quechainlink/pages/detailspage.dart';
 import 'package:quechainlink/pages/peoplepage.dart';
 import 'package:quechainlink/start/start.dart';
