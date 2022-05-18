@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/route_manager.dart';
 import 'package:quechainlink/pages/detailspage.dart';
 import 'package:quechainlink/pages/peoplepage.dart';
 import 'package:quechainlink/start/start.dart';
@@ -10,9 +11,14 @@ class RouteGenerator {
 
     switch (settings.name) {
       case '/':
-        return MaterialPageRoute(builder: (_) => Start());
+        return GetPageRoute(
+          page: () => Start(),
+        );
+      // return MaterialPageRoute(builder: (_) => Start());
       case '/listofpeople':
-        return MaterialPageRoute(builder: (_) => PeoplePage());
+        return GetPageRoute(
+          page: () => PeoplePage(),
+        );
       case '/details':
 
         // Validation of correct data type
