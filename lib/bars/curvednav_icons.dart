@@ -4,7 +4,7 @@ import 'package:icofont_flutter/icofont_flutter.dart';
 List<Widget> bottomNavIcons() {
   return <Widget>[
     Icon(
-      IcoFontIcons.line,
+      IcoFontIcons.fastFood,
       size: 30,
       color: Colors.black,
     ),
@@ -14,7 +14,7 @@ List<Widget> bottomNavIcons() {
       color: Colors.black,
     ),
     Icon(
-      IcoFontIcons.bearFace,
+      IcoFontIcons.uiLove,
       size: 30,
       color: Colors.black,
     )
