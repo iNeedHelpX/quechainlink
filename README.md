@@ -1,16 +1,7 @@
 # quechainlink
+<img src="https://user-images.githubusercontent.com/41366455/169011111-f72f8372-cfa0-46ca-bba1-fd12775cd223.png" alt="que" width="300"/>
 
-A new Flutter project.
+A mobile dapp that allows you to book people to wait in line when you don't want to.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Screen shots
+<img src="https://user-images.githubusercontent.com/41366455/169011506-a309e468-405b-48b6-b373-215e079b974e.png" alt="que app" width="120"/>
