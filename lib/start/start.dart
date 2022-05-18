@@ -10,6 +10,7 @@ import 'package:quechainlink/pages/cool.dart';
 import 'package:quechainlink/pages/peoplepage.dart';
 import 'package:quechainlink/start/route_generator.dart';
 
+//this is the general setup for the app. it provides the general frame that is used.
 class Start extends StatefulWidget {
   Start({Key? key}) : super(key: key);
 
