@@ -8,6 +8,7 @@ import 'package:quechainlink/global_vars.dart';
 import 'package:quechainlink/pages/accountpage.dart';
 import 'package:quechainlink/pages/cool.dart';
 import 'package:quechainlink/pages/peoplepage.dart';
+import 'package:quechainlink/pages/peoplepage_alt.dart';
 import 'package:quechainlink/start/route_generator.dart';
 
 //this is the general setup for the app. it provides the general frame that is used.
@@ -24,7 +25,7 @@ class _StartState extends State<Start> {
   //switch between these pages here
   final _pageOptions = [
     Cool(),
-    PeoplePage(),
+    PeoplePageAlt(),
     Acc(),
   ];
   @override
