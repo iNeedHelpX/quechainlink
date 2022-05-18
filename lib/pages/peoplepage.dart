@@ -15,7 +15,6 @@ class _PeoplePageState extends State<PeoplePage> {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            //add stuff here
             SizedBox(
               height: 100,
             ),
