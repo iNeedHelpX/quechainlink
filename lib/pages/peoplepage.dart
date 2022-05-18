@@ -16,8 +16,11 @@ class _PeoplePageState extends State<PeoplePage> {
         child: Column(
           children: [
             //add stuff here
+            SizedBox(
+              height: 100,
+            ),
 
-            Text("hrllo"),
+            // add info boxes here
           ],
         ),
       ),
