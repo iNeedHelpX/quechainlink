@@ -35,7 +35,7 @@ AppBar topAppBar(BuildContext context) {
     elevation: 16,
     //shadow under appbar
     shadowColor: logout,
-    backgroundColor: Color.fromARGB(0, 102, 80, 80),
+    backgroundColor: Color.fromARGB(0, 208, 63, 63),
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.only(
         bottomLeft: Radius.circular(20),
