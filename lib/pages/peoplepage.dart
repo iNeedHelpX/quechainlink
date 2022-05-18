@@ -16,6 +16,8 @@ class _PeoplePageState extends State<PeoplePage> {
         child: Column(
           children: [
             //add stuff here
+
+            Text("hrllo"),
           ],
         ),
       ),
