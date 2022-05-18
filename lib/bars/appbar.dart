@@ -33,8 +33,9 @@ AppBar topAppBar(BuildContext context) {
       ),
     ),
     elevation: 16,
-    shadowColor: lightpink,
-    backgroundColor: Colors.transparent,
+    //shadow under appbar
+    shadowColor: logout,
+    backgroundColor: Color.fromARGB(0, 102, 80, 80),
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.only(
         bottomLeft: Radius.circular(20),
@@ -57,7 +58,7 @@ AppBar topAppBar(BuildContext context) {
                   Shadow(
                     offset: Offset(6.0, 8.0),
                     blurRadius: 8.0,
-                    color: Color.fromARGB(255, 25, 25, 25).withOpacity(0.5),
+                    color: Color.fromARGB(255, 33, 29, 29).withOpacity(0.5),
                   ),
                 ],
               ),
