@@ -51,7 +51,7 @@ class _StartState extends State<Start> {
     );
   }
 
-  //bottom pop up sheet for login or whatever
+  //bottom pop up sheet for login or whatever. not currently in use.
 
   Future<dynamic> bottomSheet(BuildContext context) {
     return showModalBottomSheet(
