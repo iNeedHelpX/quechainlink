@@ -22,7 +22,6 @@ class _StartState extends State<Start> {
 
   //switch between these pages here
   final _pageOptions = [
-    //pages
     Cool(),
     PeoplePage(),
     Acc(),
