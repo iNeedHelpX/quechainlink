@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 import 'package:quechainlink/auth/loginservice.dart';
 import 'package:quechainlink/colors/bluegreen_gradient.dart';
 import 'package:quechainlink/colors/colours_list.dart';
-import 'package:quechainlink/start/start.dart';
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key? key}) : super(key: key);

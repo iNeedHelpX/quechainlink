@@ -31,13 +31,11 @@ class LoginService extends ChangeNotifier {
     // Once signed in, return the UserCredential
     UserCredential userCreds =
         await FirebaseAuth.instance.signInWithCredential(credential);
-    if (userCreds != null) {
-      _userModel = LoginUserModel(
-          uid: userCreds.user!.uid,
-          displayName: userCreds.user!.displayName,
-          photoUrl: userCreds.user!.photoURL,
-          email: userCreds.user!.email);
-    }
+    _userModel = LoginUserModel(
+        uid: userCreds.user!.uid,
+        displayName: userCreds.user!.displayName,
+        photoUrl: userCreds.user!.photoURL,
+        email: userCreds.user!.email);
 
     notifyListeners();
 
