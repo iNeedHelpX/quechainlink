@@ -1,13 +1,14 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:provider/provider.dart';
+import 'package:quechainlink/auth/loginservice.dart';
 import 'package:quechainlink/bars/appbar.dart';
 import 'package:quechainlink/bars/curvednav_icons.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/global_vars.dart';
 import 'package:quechainlink/pages/accountpage.dart';
 import 'package:quechainlink/pages/cool.dart';
-import 'package:quechainlink/pages/peoplepage.dart';
 import 'package:quechainlink/pages/peoplepage_alt.dart';
 import 'package:quechainlink/start/route_generator.dart';
 
@@ -30,25 +31,30 @@ class _StartState extends State<Start> {
   ];
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: GestureDetector(
-        onTap: () {
-          FocusScope.of(context).unfocus();
-        },
-        child: Scaffold(
-          key: scaffoldKey,
-          drawerEnableOpenDragGesture: false,
-          //drawer: LoggedInDrawer(),
-          backgroundColor: bg,
-          appBar: topAppBar(context),
-          resizeToAvoidBottomInset: true,
-          body: _pageOptions[selectedpage],
-          bottomNavigationBar: buildCurvedNavigationBar(),
+    return ChangeNotifierProvider(
+      create: (context) => LoginService(),
+      child: GetMaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: GestureDetector(
+          onTap: () {
+            FocusScope.of(context).unfocus();
+          },
+          child: Material(
+            child: Scaffold(
+              key: scaffoldKey,
+              drawerEnableOpenDragGesture: false,
+              //drawer: LoggedInDrawer(),
+              backgroundColor: bg,
+              appBar: topAppBar(context),
+              resizeToAvoidBottomInset: true,
+              body: _pageOptions[selectedpage],
+              bottomNavigationBar: buildCurvedNavigationBar(),
+            ),
+          ),
         ),
+        initialRoute: '/',
+        onGenerateRoute: RouteGenerator.generateRoute,
       ),
-      initialRoute: '/',
-      onGenerateRoute: RouteGenerator.generateRoute,
     );
   }
 

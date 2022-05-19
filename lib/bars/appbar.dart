@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+import 'package:quechainlink/auth/loginservice.dart';
 import 'package:quechainlink/colors/bluepurple_gradient.dart';
 
 import '../colors/colours_list.dart';
@@ -7,18 +9,32 @@ import '../colors/colours_list.dart';
 AppBar topAppBar(BuildContext context) {
   return AppBar(
     //maybe add this later?
-    // leading: Padding(
-    //     padding: EdgeInsets.all(5),
-    //     child: IconButton(
-    //       icon: Icon(Icons.menu),
-    //       onPressed: () {
-    //         //somethibg
-    //       },
-    //       //onPressed: () => scaffoldKey.currentState!.openDrawer(),
-    //     )),
+    leading: Padding(
+        padding: EdgeInsets.all(5),
+        child: IconButton(
+          color: gold,
+          icon: Icon(Icons.menu),
+          onPressed: () {
+            //somethibg
+          },
+          //onPressed: () => scaffoldKey.currentState!.openDrawer(),
+        )),
 
     actions: [
       //add stuff here for the app
+      TextButton(
+        //the logout button
+        child: Text(
+          'Logout',
+          style:
+              TextStyle(color: gold, fontSize: 20, fontWeight: FontWeight.w700),
+        ),
+        onPressed: () {
+          //this will log user out!
+          final provider = Provider.of<LoginService>(context, listen: false);
+          provider.signOut();
+        },
+      )
     ],
 
     flexibleSpace: ClipRRect(
