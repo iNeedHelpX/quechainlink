@@ -344,7 +344,7 @@ packages:
       name: google_sign_in_ios
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.2.7"
+    version: "5.3.0"
   google_sign_in_platform_interface:
     dependency: transitive
     description:

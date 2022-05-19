@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:quechainlink/auth/loginservice.dart';
+
 import 'package:quechainlink/pages/detailspage.dart';
 import 'package:quechainlink/pages/loginpage.dart';
 import 'package:quechainlink/pages/peoplepage.dart';

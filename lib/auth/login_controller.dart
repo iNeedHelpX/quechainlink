@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:quechainlink/pages/loginpage.dart';
+import 'package:quechainlink/pages/peoplepage.dart';
 import 'package:quechainlink/start/start.dart';
 
 class LoginController extends StatelessWidget {
