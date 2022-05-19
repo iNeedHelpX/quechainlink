@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
+import 'package:provider/provider.dart';
 import 'package:quechainlink/pages/detailspage.dart';
+import 'package:quechainlink/pages/loginpage.dart';
 import 'package:quechainlink/pages/peoplepage.dart';
-import 'package:quechainlink/start/start.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -12,9 +13,19 @@ class RouteGenerator {
     switch (settings.name) {
       case '/':
         return GetPageRoute(
-          page: () => Start(),
+          page: () => PeoplePage(),
         );
-      // return MaterialPageRoute(builder: (_) => Start());
+      case '/login':
+        if (args is Provider) {
+          return GetPageRoute(
+            page: () => LoginPage(),
+          );
+        }
+        return GetPageRoute();
+      // return GetPageRoute(
+      //   page: () => LoginPage(),
+      // );
+
       case '/listofpeople':
         return GetPageRoute(
           page: () => PeoplePage(),
