@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:quechainlink/auth/loginservice.dart';
 import 'package:quechainlink/start/start.dart';
 
 Future<void> main() async {
@@ -9,6 +10,13 @@ Future<void> main() async {
 
 //change this here
   runApp(
-    Start(),
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          create: (context) => LoginService(),
+        ),
+      ],
+      child: Start(),
+    ),
   );
 }

@@ -19,7 +19,7 @@ class LoginController extends StatelessWidget {
         } else if (snapshot.hasError) {
           return Text("error");
         } else {
-          return Login();
+          return LoginPage();
         }
       },
     );

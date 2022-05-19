@@ -4,14 +4,14 @@ import 'package:quechainlink/colors/bluegreen_gradient.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/start/start.dart';
 
-class Login extends StatefulWidget {
-  Login({Key? key}) : super(key: key);
+class LoginPage extends StatefulWidget {
+  LoginPage({Key? key}) : super(key: key);
 
   @override
-  State<Login> createState() => _LoginState();
+  State<LoginPage> createState() => _LoginPageState();
 }
 
-class _LoginState extends State<Login> {
+class _LoginPageState extends State<LoginPage> {
   bool _loggedIn = false;
   @override
   Widget build(BuildContext context) {
