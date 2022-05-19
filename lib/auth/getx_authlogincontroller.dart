@@ -8,7 +8,7 @@ import 'package:quechainlink/models/user.dart';
 class AuthLoginController extends GetxController {
   LoginUserModel? _userModel;
   final googleSignin = GoogleSignIn();
-  final FlutterSecureStorage secureStorage = FlutterSecureStorage();
+  final secureStorage = FlutterSecureStorage();
 
   var googleAccount = Rx<GoogleSignInAccount?>(null);
   // var fbSig = FacebookLogin();
@@ -16,17 +16,11 @@ class AuthLoginController extends GetxController {
 
   googlelogin() async {
     googleAccount.value = await googleSignin.signIn();
-    var email = writeSecureData('email', '${googleSignin.currentUser?.email}');
-    print(email);
+    secureStorage.write(key: 'email', value: googleSignin.currentUser?.email);
+    // print(googleSignin.currentUser!.email);
   }
 
-  Future<dynamic> writeSecureData(String key, String value) async {
-    await secureStorage.write(key: key, value: googleSignin.currentUser?.email);
-  }
-
-  Future<String?> getToken() async {
-    return await secureStorage.read(key: '"token');
-  }
+  Future<String?> getToken() async {}
 
   // facebookSignIn() async {
   //   fbAcc.value = await fbSig.logIn();

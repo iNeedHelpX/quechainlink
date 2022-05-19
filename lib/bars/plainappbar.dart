@@ -1,13 +1,9 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:quechainlink/auth/loginservice.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:quechainlink/bars/bottomsheet.dart';
-import 'package:quechainlink/bars/logoutbutton.dart';
 import 'package:quechainlink/colors/bluepurple_gradient.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/global_vars.dart';
-import 'package:quechainlink/pages/loginpage.dart';
 
 AppBar plainBar(BuildContext context) {
   return AppBar(
@@ -60,20 +56,20 @@ AppBar plainBar(BuildContext context) {
       child: Stack(
         children: [
           Text(
-            "Swoon",
-            style: TextStyle(
-              fontFamily: 'blkros',
-              color: lightpink,
-              letterSpacing: 1.2,
-              fontWeight: FontWeight.w400,
-              fontSize: 80,
-              shadows: [
-                Shadow(
-                  offset: Offset(6.0, 8.0),
-                  blurRadius: 8.0,
-                  color: Color.fromARGB(255, 25, 25, 25).withOpacity(0.5),
-                ),
-              ],
+            "Que",
+            style: GoogleFonts.coiny(
+              textStyle: TextStyle(
+                color: lightpink,
+                fontWeight: FontWeight.w400,
+                fontSize: 40,
+                shadows: [
+                  Shadow(
+                    offset: Offset(6.0, 8.0),
+                    blurRadius: 8.0,
+                    color: Color.fromARGB(255, 33, 29, 29).withOpacity(0.5),
+                  ),
+                ],
+              ),
             ),
           ),
         ],

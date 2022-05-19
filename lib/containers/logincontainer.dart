@@ -60,7 +60,6 @@ class LoginContainer extends StatelessWidget {
           text: "Sign in with Google",
           onPressed: () {
             controller.googlelogin();
-            //controller.getEmail();
           },
         ),
         SizedBox(height: 10),

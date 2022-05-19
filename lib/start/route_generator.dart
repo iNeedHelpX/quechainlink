@@ -3,7 +3,7 @@ import 'package:get/route_manager.dart';
 import 'package:quechainlink/pages/cool.dart';
 
 import 'package:quechainlink/pages/detailspage.dart';
-import 'package:quechainlink/pages/loginpage.dart';
+
 import 'package:quechainlink/pages/peoplepage.dart';
 import 'package:quechainlink/start/start.dart';
 
