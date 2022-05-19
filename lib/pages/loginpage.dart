@@ -59,6 +59,7 @@ class _LoginPageState extends State<LoginPage> {
                         text: "Sign in with Google",
                         onPressed: () {
                           //login with google logic
+
                           final provider =
                               Provider.of<LoginService>(context, listen: false);
                           provider.signInWithGoogle();
