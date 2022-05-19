@@ -9,14 +9,5 @@ Future<void> main() async {
   await Firebase.initializeApp();
 
 //change this here
-  runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider(
-          create: (context) => LoginService(),
-        ),
-      ],
-      child: Start(),
-    ),
-  );
+  runApp(Start());
 }

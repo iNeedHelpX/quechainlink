@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
+import 'package:quechainlink/pages/cool.dart';
 
 import 'package:quechainlink/pages/detailspage.dart';
 import 'package:quechainlink/pages/loginpage.dart';
@@ -17,9 +18,9 @@ class RouteGenerator {
         return GetPageRoute(
           page: () => Start(),
         );
-      case '/login':
+      case '/cool':
         return GetPageRoute(
-          page: () => LoginPage(),
+          page: () => Cool(),
         );
 
       case '/listofpeople':

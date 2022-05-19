@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'package:quechainlink/auth/getx_authlogincontroller.dart';
 import 'package:quechainlink/auth/loginservice.dart';
 import 'package:quechainlink/colors/bluepurple_gradient.dart';
 
@@ -31,8 +32,9 @@ AppBar topAppBar(BuildContext context) {
         ),
         onPressed: () {
           //this will log user out!
-          final provider = Provider.of<LoginService>(context, listen: false);
-          provider.signOut();
+          final provider =
+              Provider.of<AuthLoginController>(context, listen: false);
+          provider.googleSignin.signOut();
         },
       )
     ],
