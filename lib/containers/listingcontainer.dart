@@ -49,16 +49,6 @@ class _ItemContainerState extends State<ItemContainer> {
                         width: 400,
                         image: NetworkImage(widget.imgurl),
                         fit: BoxFit.cover),
-                    //icon in the corner top right
-                    // Positioned(
-                    //   right: 10,
-                    //   top: 10,
-                    //   child: Icon(
-                    //     Boxicons.bxs_purchase_tag,
-                    //     color: Color.fromARGB(255, 119, 11, 254),
-                    //     size: 30.0,
-                    //   ),
-                    // ),
                     Positioned(
                       left: 0,
                       top: 10,
@@ -80,15 +70,6 @@ class _ItemContainerState extends State<ItemContainer> {
                         ),
                       ),
                     ),
-                    // Positioned(
-                    //   right: 8,
-                    //   top: 8,
-                    //   child: Icon(
-                    //     Icons.favorite_border,
-                    //     color: Colors.white,
-                    //     size: 24.0,
-                    //   ),
-                    // ),
                   ],
                 ),
                 Container(
@@ -113,24 +94,6 @@ class _ItemContainerState extends State<ItemContainer> {
                       SizedBox(
                         height: 4.0,
                       ),
-                      // Icon(
-                      //   Icons.anchor_outlined,
-                      //   color: Colors.yellowAccent,
-                      // ),
-                      // Row(
-                      //  crossAxisAlignment: CrossAxisAlignment.start,
-                      //   children: <Widget>[
-                      //     // Icon(
-                      //     //   Icons.star,
-                      //     //   color: Colors.green,
-                      //     // ),
-
-                      //     // Text(
-                      //     //   "(220 reviews)",
-                      //     //   style: TextStyle(color: Colors.grey),
-                      //     // )
-                      //   ],
-                      // )
                     ],
                   ),
                 ),

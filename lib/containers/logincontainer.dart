@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:get/get.dart';
 import 'package:quechainlink/auth/getx_authlogincontroller.dart';
-import 'package:quechainlink/auth/login_controller.dart';
-import 'package:quechainlink/auth/loginservice.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 
 class LoginContainer extends StatelessWidget {

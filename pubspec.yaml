@@ -48,6 +48,7 @@ dependencies:
   provider: ^6.0.2
   cloud_firestore: ^3.1.15
   flutter_secure_storage: ^5.0.2
+  linkify: ^4.1.0
 
 dev_dependencies:
   flutter_test:
