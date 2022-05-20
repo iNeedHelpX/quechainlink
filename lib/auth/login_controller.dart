@@ -4,6 +4,7 @@ import 'package:quechainlink/pages/loginpage.dart';
 
 import 'package:quechainlink/start/start.dart';
 
+//not currentlyt in use
 class LoginController extends StatelessWidget {
   const LoginController({Key? key}) : super(key: key);
 

@@ -14,7 +14,7 @@ List<Widget> bottomNavIcons() {
       color: Colors.black,
     ),
     Icon(
-      IcoFontIcons.uiLove,
+      IcoFontIcons.circledUp,
       size: 30,
       color: Colors.black,
     )

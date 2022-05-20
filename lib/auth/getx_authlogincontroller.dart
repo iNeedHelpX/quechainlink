@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:quechainlink/models/user.dart';
 
+//not currently in use
 class AuthLoginController extends GetxController {
   LoginUserModel? _userModel;
   final googleSignin = GoogleSignIn();

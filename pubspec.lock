@@ -386,7 +386,7 @@ packages:
       name: google_fonts
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.3.2"
+    version: "2.3.3"
   google_sign_in:
     dependency: "direct main"
     description:
@@ -407,7 +407,7 @@ packages:
       name: google_sign_in_ios
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.3.0"
+    version: "5.3.1"
   google_sign_in_platform_interface:
     dependency: transitive
     description:
