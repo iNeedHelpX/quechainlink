@@ -31,7 +31,7 @@ class ComingSoon extends StatelessWidget {
           ),
           SizedBox(height: 2),
           Text(
-            text,
+            subtext,
             style: TextStyle(
               color: textturq,
               fontSize: 16,
