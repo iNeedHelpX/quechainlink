@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:linkify/linkify.dart';
 import 'package:quechainlink/colors/bluepurple_gradient.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 
@@ -31,15 +32,8 @@ class ComingSoon extends StatelessWidget {
           ),
           SizedBox(height: 10),
           //email address added here!
-          Linkify(
-            onOpen: _onOpen,
-            text: subtext,
-            style: TextStyle(color: Colors.tealAccent),
-          ),
         ],
       ),
     );
   }
-
-  void _onOpen(LinkableElement link) {}
 }
