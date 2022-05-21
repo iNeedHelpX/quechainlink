@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:linkify/linkify.dart';
-import 'package:quechainlink/colors/bluepurple_gradient.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/colors/grey_gradient.dart';
 
