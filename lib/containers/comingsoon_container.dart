@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:linkify/linkify.dart';
 import 'package:quechainlink/colors/bluepurple_gradient.dart';
 import 'package:quechainlink/colors/colours_list.dart';
+import 'package:quechainlink/colors/grey_gradient.dart';
 
 //this will be the coming soon container
 class ComingSoon extends StatelessWidget {
@@ -17,7 +18,7 @@ class ComingSoon extends StatelessWidget {
       height: 80,
       width: 400,
       decoration: BoxDecoration(
-        gradient: bluePurpleGrad(),
+        gradient: greyGrad(),
         borderRadius: BorderRadius.circular(15),
       ),
       child: Column(
@@ -25,12 +26,19 @@ class ComingSoon extends StatelessWidget {
           Text(
             text,
             style: TextStyle(
-              color: orangetext,
+              color: lightpink,
               fontSize: 20,
               fontWeight: FontWeight.w900,
             ),
           ),
-          SizedBox(height: 10),
+          SizedBox(height: 2),
+          Text(
+            text,
+            style: TextStyle(
+              color: textturq,
+              fontSize: 16,
+            ),
+          ),
           //email address added here!
         ],
       ),

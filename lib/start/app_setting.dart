@@ -23,7 +23,7 @@ class _AppSetUpState extends State<AppSetUp> {
 
 //list of pages that one can navigate to using the navbar
   final _pageOptions = [
-    Cool(),
+    FoodListings(),
     PeoplePageAlt(),
     Acc(),
   ];
@@ -47,7 +47,7 @@ class _AppSetUpState extends State<AppSetUp> {
       index: selectedpage,
       buttonBackgroundColor: tabicon,
       color: tabicon,
-      backgroundColor: bg.withOpacity(0.7),
+      backgroundColor: bg.withOpacity(1.0),
       animationCurve: Curves.linearToEaseOut,
       items: bottomNavIcons(),
       onTap: (index) {

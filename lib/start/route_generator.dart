@@ -20,7 +20,7 @@ class RouteGenerator {
         );
       case '/cool':
         return GetPageRoute(
-          page: () => Cool(),
+          page: () => FoodListings(),
         );
 
       case '/listofpeople':

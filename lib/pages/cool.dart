@@ -1,15 +1,26 @@
 import 'package:flutter/material.dart';
+import 'package:quechainlink/containers/comingsoon_container.dart';
 
-class Cool extends StatefulWidget {
-  Cool({Key? key}) : super(key: key);
+class FoodListings extends StatefulWidget {
+  FoodListings({Key? key}) : super(key: key);
 
   @override
-  State<Cool> createState() => _CoolState();
+  State<FoodListings> createState() => _FoodListingsState();
 }
 
-class _CoolState extends State<Cool> {
+class _FoodListingsState extends State<FoodListings> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      children: [
+        //add boxes here
+
+        SizedBox(
+          height: 100,
+        ),
+        ComingSoon(
+            text: "Will add food ordering soon...", subtext: "coming soon"),
+      ],
+    );
   }
 }

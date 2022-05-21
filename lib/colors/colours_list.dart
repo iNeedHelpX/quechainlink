@@ -19,3 +19,4 @@ const textturq = Color.fromARGB(255, 60, 190, 200);
 const errorcolor = Color.fromARGB(255, 253, 0, 84);
 const lightpink = Color.fromARGB(255, 221, 208, 243);
 const logout = Color.fromARGB(255, 11, 16, 137);
+const textturq2 = Color.fromARGB(255, 109, 255, 238);
