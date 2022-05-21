@@ -5,7 +5,7 @@ import 'package:quechainlink/bars/plainappbar.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/global_vars.dart';
 import 'package:quechainlink/pages/accountpage.dart';
-import 'package:quechainlink/pages/cool.dart';
+import 'package:quechainlink/pages/foodpage.dart';
 import 'package:quechainlink/pages/peoplepage_alt.dart';
 
 class AppSetUp extends StatefulWidget {

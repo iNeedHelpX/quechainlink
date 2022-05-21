@@ -11,14 +11,16 @@ class Acc extends StatefulWidget {
 class _AccState extends State<Acc> {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        //put boxes here!
-        SizedBox(
-          height: 100,
-        ),
-        ComingSoon(text: "stuff goes here!", subtext: "coming soon")
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          //put boxes here!
+          SizedBox(
+            height: 100,
+          ),
+          ComingSoon(text: "stuff goes here!", subtext: "coming soon")
+        ],
+      ),
     );
   }
 }
