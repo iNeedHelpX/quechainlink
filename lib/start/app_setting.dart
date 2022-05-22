@@ -4,7 +4,7 @@ import 'package:quechainlink/bars/curvednav_icons.dart';
 import 'package:quechainlink/bars/plainappbar.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/global_vars.dart';
-import 'package:quechainlink/pages/accountpage.dart';
+import 'package:quechainlink/pages/waittimes.dart';
 import 'package:quechainlink/pages/foodpage.dart';
 import 'package:quechainlink/pages/peoplepage_alt.dart';
 
@@ -25,7 +25,7 @@ class _AppSetUpState extends State<AppSetUp> {
   final _pageOptions = [
     FoodListings(),
     PeoplePageAlt(),
-    Acc(),
+    WaitTimesPage(),
   ];
   @override
   Widget build(BuildContext context) {

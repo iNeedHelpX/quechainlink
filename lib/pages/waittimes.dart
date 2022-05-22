@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:quechainlink/containers/comingsoon_container.dart';
 
-class Acc extends StatefulWidget {
-  Acc({Key? key}) : super(key: key);
+class WaitTimesPage extends StatefulWidget {
+  WaitTimesPage({Key? key}) : super(key: key);
 
   @override
-  State<Acc> createState() => _AccState();
+  State<WaitTimesPage> createState() => _WaitTimesPageState();
 }
 
-class _AccState extends State<Acc> {
+class _WaitTimesPageState extends State<WaitTimesPage> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
