@@ -5,7 +5,7 @@ import 'package:quechainlink/bars/plainappbar.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/global_vars.dart';
 import 'package:quechainlink/pages/waittimes.dart';
-import 'package:quechainlink/pages/foodpage.dart';
+import 'package:quechainlink/pages/infoonapp_page.dart';
 import 'package:quechainlink/pages/peoplepage_alt.dart';
 
 class AppSetUp extends StatefulWidget {
@@ -23,7 +23,7 @@ class _AppSetUpState extends State<AppSetUp> {
 
 //list of pages that one can navigate to using the navbar
   final _pageOptions = [
-    FoodListings(),
+    InfoAboutApp(),
     PeoplePageAlt(),
     WaitTimesPage(),
   ];
