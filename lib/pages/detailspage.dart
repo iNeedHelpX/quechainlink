@@ -41,7 +41,7 @@ class DetailsPage extends StatelessWidget {
                       ),
                       ElevatedButton(
                         onPressed: () {
-                          Get.toNamed("/bookings");
+                          Get.toNamed("/booking");
                         },
                         child: Text("press here to book"),
                       ),
