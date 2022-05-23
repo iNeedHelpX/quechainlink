@@ -3,9 +3,10 @@ import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/containers/comingsoon_container.dart';
 
 class DetailsPage extends StatelessWidget {
-  final String? name;
+  // final String imgUrl;
+
   final String imgUrl;
-  const DetailsPage({required this.imgUrl, this.name});
+  const DetailsPage({required this.imgUrl});
 
   @override
   Widget build(BuildContext context) {
@@ -26,10 +27,6 @@ class DetailsPage extends StatelessWidget {
                         width: size.width,
                         child: Image(
                             image: NetworkImage(imgUrl), fit: BoxFit.cover),
-                      ),
-                      ComingSoon(
-                        text: this.name,
-                        subtext: 'passport office: 74 victoria st Toronto',
                       ),
                     ],
                   ),

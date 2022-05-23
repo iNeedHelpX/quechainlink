@@ -26,19 +26,24 @@ class RouteGenerator {
         return GetPageRoute(
           page: () => PeoplePage(),
         );
+      case '/booking':
+        return GetPageRoute(
+          page: () => BookingPage(),
+        );
+
       case '/details':
 
         // Validation of correct data type
         if (args is String) {
           return GetPageRoute(
-            page: () => DetailsPage(imgUrl: args),
+            page: () => DetailsPage(
+              imgUrl: args,
+            ),
           );
         }
         // If args is not of the correct type, return an error page.
         // You can also throw an exception while in development.
         return _errorRoute();
-      case '/booking':
-        return GetPageRoute(page: () => BookingPage());
 
       default:
         // If there is no such named route in the switch statement, e.g. /third

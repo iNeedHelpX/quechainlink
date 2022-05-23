@@ -27,7 +27,7 @@ class _ItemContainerState extends State<ItemContainer> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Get.toNamed("/details", arguments: {widget.imgurl, widget.name});
+        Get.toNamed("/details", arguments: widget.imgurl);
         //nav over to the details page.
         //Navigator.of(context).pushNamed('/details', arguments: widget.imgurl);
       },
