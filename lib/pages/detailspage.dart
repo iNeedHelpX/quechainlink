@@ -29,7 +29,7 @@ class DetailsPage extends StatelessWidget {
                             image: NetworkImage(imgUrl), fit: BoxFit.cover),
                       ),
                       ComingSoon(
-                          text: "I will wait in ques for you",
+                          text: name,
                           subtext: 'passport office: 74 victoria st Toronto')
                     ],
                   ),
