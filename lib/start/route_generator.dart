@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
+import 'package:quechainlink/pages/booking_page.dart';
 import 'package:quechainlink/pages/info_on_app_page.dart';
 import 'package:quechainlink/pages/detailspage.dart';
 import 'package:quechainlink/pages/peoplepage.dart';
@@ -30,12 +31,14 @@ class RouteGenerator {
         // Validation of correct data type
         if (args is String) {
           return GetPageRoute(
-            page: () => DetailsPage(imgUrl: args, name: args),
+            page: () => DetailsPage(imgUrl: args),
           );
         }
         // If args is not of the correct type, return an error page.
         // You can also throw an exception while in development.
         return _errorRoute();
+      case '/booking':
+        return GetPageRoute(page: () => BookingPage());
 
       default:
         // If there is no such named route in the switch statement, e.g. /third
