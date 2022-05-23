@@ -30,7 +30,7 @@ class RouteGenerator {
         // Validation of correct data type
         if (args is String) {
           return GetPageRoute(
-            page: () => DetailsPage(),
+            page: () => DetailsPage(imgUrl: args, name: args),
           );
         }
         // If args is not of the correct type, return an error page.
