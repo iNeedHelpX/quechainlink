@@ -88,7 +88,7 @@ class _ItemContainerState extends State<ItemContainer> {
                         height: 5.0,
                       ),
                       Text(
-                        "Chinatown-Toronto",
+                        "Passport office: 74 victoria st-Toronto",
                         style: TextStyle(color: Colors.white),
                       ),
                       SizedBox(
