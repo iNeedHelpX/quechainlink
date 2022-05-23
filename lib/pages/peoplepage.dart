@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quechainlink/colors/colours_list.dart';
+import 'package:quechainlink/containers/listingcontainer.dart';
 
 //the page shows view of avaiable people to book
 class PeoplePage extends StatefulWidget {
@@ -18,14 +19,16 @@ class _PeoplePageState extends State<PeoplePage> {
         child: Column(
           children: [
             SizedBox(
-              height: 100,
-            ),
-            Text(
-              "Hello julia!",
-              style: GoogleFonts.aladin(fontSize: 30, color: tabicon),
+              height: 10,
             ),
 
             // add info boxes here
+
+            ItemContainer(
+                imgurl:
+                    "https://firebasestorage.googleapis.com/v0/b/quechainlink.appspot.com/o/woman1.jpeg?alt=media&token=187682b8-5207-40f7-992d-fb2bca892a67",
+                deliverfee: "\$30",
+                name: "Janelle waits in line"),
           ],
         ),
       ),
