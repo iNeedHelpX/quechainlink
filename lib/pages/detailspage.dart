@@ -40,10 +40,11 @@ class DetailsPage extends StatelessWidget {
                         height: 20,
                       ),
                       ElevatedButton(
-                          onPressed: () {
-                            Get.toNamed("/bookings");
-                          },
-                          child: Text("hrellp"))
+                        onPressed: () {
+                          Get.toNamed("/bookings");
+                        },
+                        child: Text("press here to book"),
+                      ),
                     ],
                   ),
                 ),
