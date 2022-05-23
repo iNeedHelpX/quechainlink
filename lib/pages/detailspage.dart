@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/get_navigation.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/containers/comingsoon_container.dart';
 
