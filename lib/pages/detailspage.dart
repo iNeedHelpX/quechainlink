@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/containers/comingsoon_container.dart';
@@ -29,6 +30,20 @@ class DetailsPage extends StatelessWidget {
                         child: Image(
                             image: NetworkImage(imgUrl), fit: BoxFit.cover),
                       ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      ComingSoon(
+                          text: "Available to wait in que",
+                          subtext: "passport office: 74 victoria st Toronto"),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      ElevatedButton(
+                          onPressed: () {
+                            Get.toNamed("/bookings");
+                          },
+                          child: Text("hrellp"))
                     ],
                   ),
                 ),
