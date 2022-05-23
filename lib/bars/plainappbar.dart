@@ -7,27 +7,28 @@ import 'package:quechainlink/global_vars.dart';
 
 AppBar plainBar(BuildContext context) {
   return AppBar(
-    leading: Padding(
-        padding: EdgeInsets.all(5),
-        child: IconButton(
-          icon: Icon(Icons.menu),
-          onPressed: () => scaffoldKey.currentState!.openDrawer(),
-        )),
+    //these icons will be added later
+    // leading: Padding(
+    //     padding: EdgeInsets.all(5),
+    //     child: IconButton(
+    //       icon: Icon(Icons.menu),
+    //       onPressed: () => scaffoldKey.currentState!.openDrawer(),
+    //     )),
 
     actions: [
-      Padding(
-        padding: const EdgeInsets.only(right: 15),
-        child: IconButton(
-          icon: Icon(
-            Icons.shopping_bag_rounded,
-            color: Colors.purpleAccent[60],
-            size: 30,
-          ),
-          onPressed: () {
-            bottomSheet(context);
-          },
-        ),
-      ),
+      // Padding(
+      //   padding: const EdgeInsets.only(right: 15),
+      //   child: IconButton(
+      //     icon: Icon(
+      //       Icons.shopping_bag_rounded,
+      //       color: Colors.purpleAccent[60],
+      //       size: 30,
+      //     ),
+      //     onPressed: () {
+      //       bottomSheet(context);
+      //     },
+      //   ),
+      // ),
     ],
 
     flexibleSpace: ClipRRect(
