@@ -28,8 +28,9 @@ class DetailsPage extends StatelessWidget {
                             image: NetworkImage(imgUrl), fit: BoxFit.cover),
                       ),
                       ComingSoon(
-                          text: this.name,
-                          subtext: 'passport office: 74 victoria st Toronto')
+                        text: this.name,
+                        subtext: 'passport office: 74 victoria st Toronto',
+                      ),
                     ],
                   ),
                 ),
