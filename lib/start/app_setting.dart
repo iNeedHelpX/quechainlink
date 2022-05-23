@@ -4,8 +4,8 @@ import 'package:quechainlink/bars/curvednav_icons.dart';
 import 'package:quechainlink/bars/plainappbar.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/global_vars.dart';
-import 'package:quechainlink/pages/waittimes.dart';
-import 'package:quechainlink/pages/infoonapp_page.dart';
+import 'package:quechainlink/pages/wait_times_page.dart';
+import 'package:quechainlink/pages/info_on_app_page.dart';
 import 'package:quechainlink/pages/peoplepage_alt.dart';
 
 class AppSetUp extends StatefulWidget {
