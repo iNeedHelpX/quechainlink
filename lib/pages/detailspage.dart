@@ -40,6 +40,9 @@ class DetailsPage extends StatelessWidget {
                         height: 20,
                       ),
                       ElevatedButton(
+                        style: ButtonStyle(
+                          backgroundColor: Color,
+                        ),
                         onPressed: () {
                           Get.toNamed("/booking");
                         },
