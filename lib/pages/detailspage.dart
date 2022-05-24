@@ -41,7 +41,8 @@ class DetailsPage extends StatelessWidget {
                       ),
                       ElevatedButton(
                         style: ButtonStyle(
-                          backgroundColor: Color,
+                          backgroundColor:
+                              MaterialStateProperty.all<Color>(tabicon),
                         ),
                         onPressed: () {
                           Get.toNamed("/booking");

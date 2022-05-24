@@ -13,6 +13,35 @@ class _BookingPageState extends State<BookingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: bg,
+      body: SingleChildScrollView(
+        child: Stack(
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Expanded(
+                  child: Column(
+                    children: [
+                      //stuff here
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            SafeArea(
+              child: IconButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                icon: Icon(
+                  Icons.backspace,
+                  color: Color.fromARGB(255, 247, 0, 97),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
