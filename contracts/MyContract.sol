@@ -4,3 +4,5 @@ pragma solidity ^0.8.13;
 import "/Users/juliapak/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "/Users/juliapak/node_modules/@chainlink/contracts/src/v0.8/ChainlinkClient.sol";
 //my contract that makes upgradable
+
+//const RINKEBY_LINKTOKEN= '0x01BE23585060835E02B77ef475b0Cc51aA1e0709'
