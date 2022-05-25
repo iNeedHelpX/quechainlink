@@ -7,7 +7,6 @@ import 'package:quechainlink/global_vars.dart';
 import 'package:quechainlink/pages/peoplepage.dart';
 import 'package:quechainlink/pages/wait_times_page.dart';
 import 'package:quechainlink/pages/info_on_app_page.dart';
-import 'package:quechainlink/pages/peoplepage_alt.dart';
 
 class AppSetUp extends StatefulWidget {
   AppSetUp({Key? key}) : super(key: key);

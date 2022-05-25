@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/containers/listingcontainer.dart';
 
 //the page shows view of avaiable people to book

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:quechainlink/bars/bottomsheet.dart';
 import 'package:quechainlink/colors/bluepurple_gradient.dart';
 import 'package:quechainlink/colors/colours_list.dart';
-import 'package:quechainlink/global_vars.dart';
 
 AppBar plainBar(BuildContext context) {
   return AppBar(
