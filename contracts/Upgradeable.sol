@@ -5,3 +5,14 @@ import "/Users/juliapak/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.s
 import "/Users/juliapak/node_modules/@chainlink/contracts/src/v0.8/ChainlinkClient.sol";
 
 //my contract that makes other contract upgradable
+contract HeyJulia {
+    string public message;
+
+    constructor(string memory initialMessage) {
+        message = initialMessage;
+    }
+
+    function updateMessage(string memory newMessage) public {
+        message = newMessage;
+    }
+}
