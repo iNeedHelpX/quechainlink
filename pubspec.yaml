@@ -49,6 +49,7 @@ dependencies:
   cloud_firestore: ^3.1.15
   flutter_secure_storage: ^5.0.2
   linkify: ^4.1.0
+  web3dart: ^2.3.5
 
 dev_dependencies:
   flutter_test:
