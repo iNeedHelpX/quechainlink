@@ -5,7 +5,7 @@ import "/Users/juliapak/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.s
 import "/Users/juliapak/node_modules/@chainlink/contracts/src/v0.8/ChainlinkClient.sol";
 import "/Users/juliapak/node_modules/@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
-//get the prices!
+//get the prices! for eth
 contract PriceConsumerV3 {
     AggregatorV3Interface internal priceFeed;
 
@@ -27,12 +27,11 @@ contract PriceConsumerV3 {
         (
             ,
             /*uint80 roundID*/
-            int256 price, /*uint startedAt*/ /*uint timeStamp*/
+            int256 price, /*uint startedAt*/ /*uint timeStamp*/ /*uint80 answeredInRound*/
             ,
             ,
 
-        ) = /*uint80 answeredInRound*/
-            priceFeed.latestRoundData();
+        ) = priceFeed.latestRoundData();
         return price;
     }
 }
