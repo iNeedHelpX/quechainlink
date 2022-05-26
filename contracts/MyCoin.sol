@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-//trialing this
+//trialing this but not sure how to use it yet
 contract MyCoin {
     //my personal coin
 
