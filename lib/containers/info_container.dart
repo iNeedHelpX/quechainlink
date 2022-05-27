@@ -4,11 +4,13 @@ import 'package:quechainlink/colors/colours_list.dart';
 class Info extends StatefulWidget {
   final String boomtitle;
   final String subtitle;
+  final String passportoffice;
 
   Info({
     Key? key,
     required this.boomtitle,
     required this.subtitle,
+    required this.passportoffice,
   }) : super(key: key);
 
   @override
@@ -51,14 +53,15 @@ class _InfoState extends State<Info> {
 //the box color and design
   BoxDecoration _decor() {
     return BoxDecoration(
-        borderRadius: BorderRadius.circular(20),
-        color: textgreyblue,
-        boxShadow: [
-          BoxShadow(
-              color: Color.fromARGB(255, 98, 21, 255),
-              offset: Offset(11, 10),
-              blurRadius: 75),
-        ]);
+      borderRadius: BorderRadius.circular(20),
+      color: textgreyblue,
+      boxShadow: [
+        BoxShadow(
+            color: Color.fromARGB(255, 98, 21, 255),
+            offset: Offset(11, 10),
+            blurRadius: 75),
+      ],
+    );
   }
 
   Align _boomTitle() {
@@ -87,6 +90,14 @@ class _InfoState extends State<Info> {
               text: widget.subtitle,
               style: TextStyle(
                 color: orangetext,
+                fontFamily: 'anika',
+                fontSize: 22,
+              ),
+            ),
+            TextSpan(
+              text: widget.passportoffice,
+              style: TextStyle(
+                color: textturq2,
                 fontFamily: 'anika',
                 fontSize: 22,
               ),

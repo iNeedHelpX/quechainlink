@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:quechainlink/containers/comingsoon_container.dart';
+import 'package:quechainlink/containers/info_container.dart';
 
 class DetailsPage extends StatelessWidget {
   // final String imgUrl;
@@ -33,9 +34,9 @@ class DetailsPage extends StatelessWidget {
                       SizedBox(
                         height: 10,
                       ),
-                      ComingSoon(
-                        boomtitle: 'COOL',
-                      ),
+                      Info(
+                          boomtitle: "book me",
+                          subtitle: "get an NFT for a 5 hour booking"),
                       SizedBox(
                         height: 20,
                       ),
