@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 
 class Info extends StatefulWidget {
@@ -70,11 +71,10 @@ class _InfoState extends State<Info> {
       alignment: Alignment.topCenter,
       child: Text(
         widget.boomtitle,
-        style: TextStyle(
-            color: lightpink,
-            fontFamily: 'luv',
-            fontSize: 25,
-            fontWeight: FontWeight.w900),
+        style: GoogleFonts.fredokaOne(
+          fontSize: 28,
+          color: tabicon,
+        ),
         textAlign: TextAlign.center,
       ),
     );
@@ -89,10 +89,10 @@ class _InfoState extends State<Info> {
           children: [
             TextSpan(
               text: widget.subtitle,
-              style: TextStyle(
-                color: orangetext,
-                fontFamily: 'anika',
-                fontSize: 22,
+              style: GoogleFonts.indieFlower(
+                color: gold,
+                fontSize: 20,
+                fontWeight: FontWeight.w300,
               ),
             ),
           ],
