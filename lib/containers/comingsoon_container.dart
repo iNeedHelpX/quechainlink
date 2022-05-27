@@ -1,7 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:quechainlink/colors/colours_list.dart';
-import 'package:quechainlink/colors/grey_gradient.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 //this will be the coming soon container
