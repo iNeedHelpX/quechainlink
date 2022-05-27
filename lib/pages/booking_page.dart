@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:http/http.dart';
 import 'package:quechainlink/colors/colours_list.dart';
+import 'package:web3dart/web3dart.dart';
 
+//this page incorperates the web3dart smart contracts
 class BookingPage extends StatefulWidget {
   BookingPage({Key? key}) : super(key: key);
 
@@ -9,6 +12,8 @@ class BookingPage extends StatefulWidget {
 }
 
 class _BookingPageState extends State<BookingPage> {
+  late Client httpClient;
+  late Web3Client ethClient;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
