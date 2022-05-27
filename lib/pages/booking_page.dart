@@ -3,7 +3,7 @@ import 'package:http/http.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:web3dart/web3dart.dart';
 
-//this page incorperates the web3dart smart contracts
+//this page incorperates the web3dart smart contracts. This project is currently hard coded, but that will change
 class BookingPage extends StatefulWidget {
   BookingPage({Key? key}) : super(key: key);
 
