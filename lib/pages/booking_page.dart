@@ -14,6 +14,9 @@ class BookingPage extends StatefulWidget {
 class _BookingPageState extends State<BookingPage> {
   late Client httpClient;
   late Web3Client ethClient;
+
+  //my metamask address here
+  final myAddress = "0x2997E634855532D8ba9886D6912Dc274372c3D42";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
