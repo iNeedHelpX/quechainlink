@@ -18,7 +18,9 @@ class _WaitTimesPageState extends State<WaitTimesPage> {
           SizedBox(
             height: 100,
           ),
-          ComingSoon(text: "stuff goes here!", subtext: "coming soon")
+          ComingSoon(
+            boomtitle: "nce",
+          )
         ],
       ),
     );

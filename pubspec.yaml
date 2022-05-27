@@ -50,6 +50,7 @@ dependencies:
   flutter_secure_storage: ^5.0.2
   linkify: ^4.1.0
   web3dart: ^2.3.5
+  url_launcher: ^6.1.2
 
 dev_dependencies:
   flutter_test:

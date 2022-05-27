@@ -19,8 +19,8 @@ class _InfoAboutAppState extends State<InfoAboutApp> {
           height: 100,
         ),
         ComingSoon(
-            text: "Will add information about this app soon!!",
-            subtext: "coming soon"),
+          boomtitle: "ok",
+        ),
       ],
     );
   }

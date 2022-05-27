@@ -34,8 +34,8 @@ class DetailsPage extends StatelessWidget {
                         height: 10,
                       ),
                       ComingSoon(
-                          text: "Available to wait in que",
-                          subtext: "passport office: 74 victoria st Toronto"),
+                        boomtitle: 'COOL',
+                      ),
                       SizedBox(
                         height: 20,
                       ),
