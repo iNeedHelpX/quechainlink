@@ -48,4 +48,4 @@ app.*.map.json
 /android/app/google-services.json
 /android/key.properties
 #ios related
-/ios/Runner/GoogleService-Info.plist
+**/ios/Runner/GoogleService-Info.plist
