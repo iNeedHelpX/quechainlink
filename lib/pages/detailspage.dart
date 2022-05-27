@@ -35,8 +35,11 @@ class DetailsPage extends StatelessWidget {
                         height: 10,
                       ),
                       Info(
-                          boomtitle: "book me",
-                          subtitle: "get an NFT for a 5 hour booking"),
+                        boomtitle: "book me",
+                        subtitle: "get an NFT for a 5 hour booking",
+                        passportoffice:
+                            "Passport Office: 74 Victoria st Toronto",
+                      ),
                       SizedBox(
                         height: 20,
                       ),

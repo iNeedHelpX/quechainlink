@@ -41,6 +41,7 @@ class _InfoState extends State<Info> {
                 children: [
                   _boomTitle(),
                   _textTitle(),
+                  _passportOffice(),
                 ],
               ),
             ),
@@ -94,16 +95,23 @@ class _InfoState extends State<Info> {
                 fontSize: 22,
               ),
             ),
-            TextSpan(
-              text: widget.passportoffice,
-              style: TextStyle(
-                color: textturq2,
-                fontFamily: 'anika',
-                fontSize: 22,
-              ),
-            ),
           ],
         ),
+      ),
+    );
+  }
+
+  Align _passportOffice() {
+    return Align(
+      alignment: Alignment.topCenter,
+      child: Text(
+        widget.passportoffice,
+        style: TextStyle(
+            color: textturq2,
+            fontFamily: 'luv',
+            fontSize: 16,
+            fontWeight: FontWeight.w200),
+        textAlign: TextAlign.center,
       ),
     );
   }
