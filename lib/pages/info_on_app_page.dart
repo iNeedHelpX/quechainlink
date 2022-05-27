@@ -19,7 +19,7 @@ class _InfoAboutAppState extends State<InfoAboutApp> {
           height: 100,
         ),
         ComingSoon(
-          boomtitle: "ok",
+          boomtitle: "About this dapp",
         ),
       ],
     );

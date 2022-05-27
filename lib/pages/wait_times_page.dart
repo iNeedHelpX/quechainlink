@@ -19,7 +19,7 @@ class _WaitTimesPageState extends State<WaitTimesPage> {
             height: 100,
           ),
           ComingSoon(
-            boomtitle: "nce",
+            boomtitle: "Thank you for booking!!",
           )
         ],
       ),

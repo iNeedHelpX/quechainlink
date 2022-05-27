@@ -87,7 +87,7 @@ class _ComingSoonState extends State<ComingSoon> {
           children: [
             TextSpan(
               text:
-                  "Delivered downtown within Toronto. Handmade in Toronto! Large breast candle too! For more info: ",
+                  "This is a dapp that allows you to book people to wait in lines for you. This is very much gig economy for dealing with long lines. Bookings are for 5 hour blocks. You will get an NFT of your booking. Hopefully this dapp will evolve into a real world thing! Here is my email: ",
               style: TextStyle(
                 color: orangetext,
                 fontFamily: 'anika',
