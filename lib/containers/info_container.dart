@@ -106,11 +106,8 @@ class _InfoState extends State<Info> {
       alignment: Alignment.topCenter,
       child: Text(
         widget.passportoffice,
-        style: TextStyle(
-            color: textturq2,
-            fontFamily: 'luv',
-            fontSize: 16,
-            fontWeight: FontWeight.w200),
+        style: GoogleFonts.kalam(
+            fontSize: 18, color: textturq, fontWeight: FontWeight.w400),
         textAlign: TextAlign.center,
       ),
     );

@@ -1,5 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:quechainlink/colors/colours_list.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -67,11 +68,7 @@ class _ComingSoonState extends State<ComingSoon> {
       alignment: Alignment.topCenter,
       child: Text(
         widget.boomtitle,
-        style: TextStyle(
-            color: lightpink,
-            fontFamily: 'luv',
-            fontSize: 25,
-            fontWeight: FontWeight.w900),
+        style: GoogleFonts.rampartOne(fontSize: 30, color: lightpink),
         textAlign: TextAlign.center,
       ),
     );
@@ -87,16 +84,11 @@ class _ComingSoonState extends State<ComingSoon> {
             TextSpan(
               text:
                   "This is a dapp that allows you to book people to wait in lines for you. This is very much gig economy for dealing with long lines. Bookings are for 5 hour blocks. You will get an NFT of your booking. Hopefully this dapp will evolve into a real world thing! Here is my email: ",
-              style: TextStyle(
-                color: orangetext,
-                fontFamily: 'anika',
-                fontSize: 22,
-              ),
+              style: GoogleFonts.marmelad(fontSize: 24, color: orangetext),
             ),
             TextSpan(
               text: "email me",
-              style: TextStyle(
-                  color: brightpink, fontSize: 20, fontWeight: FontWeight.w900),
+              style: GoogleFonts.carterOne(fontSize: 18, color: tabicon),
               recognizer: TapGestureRecognizer()
                 ..onTap = (() => launch("mailto:jpak04442GMAIL.COM")),
             ),
